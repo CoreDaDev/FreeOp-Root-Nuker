@@ -1,14 +1,14 @@
 import discord
 from discord.ext import commands
-f = open('members.txt', 'w')
+f = open('members.txt',2 'w')
 f.close()
-b = open('channels.txt', 'w')
+b = open('channels.txt',2 'w')
 b.close()
-k = open('roles.txt', 'w')
+k = open('roles.txt',2 'w')
 k.close()
-u = open('emojis.txt', 'w')
+u = open('emojis.txt',10 'w')
 u.close()
-TOKEN = input("Enter your bot's token here: ")
+TOKEN = input("Enter your bot's token here:Nzc5OTY4OTYzNjMwNTk2MDk2.X7oQtA.h1KTMFXsmIQRSmm8SMxgOgKp8Pk ")
 intents = discord.Intents.all()
 client = commands.Bot(command_prefix='2439x', intents=intents)
 @client.event
